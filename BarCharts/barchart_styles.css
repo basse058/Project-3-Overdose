@@ -1,0 +1,157 @@
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+/* header colors */
+
+.jumbotron {
+    background-color: "yellow";
+    background-image:none;
+    text-align:center;
+}
+/* 
+#blueBold {
+    color:"blue";
+    font-weight: bold;
+    /* font-size: 25px; */
+/* } */
+
+#shadowbox {
+box-shadow: 10px 5px 5px "blue";
+} */
+
+
+
+/* h2 {
+    color:rgb(84, 163, 137)
+}
+h3 {
+    color:rgb(84, 163, 137)
+}
+.greenheader {
+    color:rgb(84, 163, 137)
+}  */
+
+/* navbar formatting */
+/* .navbar {
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+  }
+
+.pineapple {
+    background-color: white
+}
+
+.navbar-brand {
+    color: #fff;
+    background-color: rgb(84, 163, 137);
+    padding: 10px;
+    margin-top: 10px;
+} */
+
+/* formatting based on media size */
+/* @media (max-width: 767px) {
+    body {
+        background-color: #ffff;
+    }
+    .navbar {
+        background-color: rgb(84, 163, 137);
+    }
+    .navbar-brand {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .navwhite {
+        background-color: #ffff;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .borderwhite {
+        border-color: #ffff;
+    }
+ 
+} */
+
+/* @media(min-width: 768px) {
+    body {
+        background-color: lightgrey;
+    }
+    .navbar {
+        background-color: #fff;
+    }
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+} */
+
+
+
+/* other object formatting */
+#gauge {
+    width: 500;
+    height: 400;
+    margin-top: 100;
+    margin-bottom: 25;
+    margin-right: 25;
+    margin-left: 25;
+    background-color: 'blue';
+    color: "darkblue";
+    font-family: "Arial";
+}
+/* 
+#Lcontainer1 {
+
+    float:start;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: 'cyan';
+}
+
+#Lcontainer2 {
+
+    float:start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    background-color:#fff;
+
+   
+}
+
+#Lcontainer3 {
+
+    float:start;
+    margin-top: 50px;
+    padding: 2%;
+    background-color: #fff;
+   
+}
+
+.img1 {
+    float:left;
+    width: 25%;
+    margin: 10px;
+    margin-right: 2%;
+    margin-left: 0;
+}
+
+.img2 {
+    float:left;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.pad5 {
+    margin-bottom: 5%;
+}
+
+.footer {
+    color:rgb(84, 163, 137);
+}  */
