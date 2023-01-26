@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <script src="https://cdn.anychart.com/geodata/latest/countries/united_states_of_america/united_states_of_america.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
+    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+  
+      html,
+      body,
+      #container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    
+  </style>
+  </head>
+  <body>
+    
+    <div id="container"></div>
+    
+    <script>
+  
+  anychart.onDocumentReady(function () {
+        anychart.data.loadJsonFile(
+         '/data.json',
+        function (data) {
+          var baseLink = 'https://en.wikipedia.org/wiki/';
+          // create map chart
+          var map = anychart.map();
+          var drugoverdosedeaths = data;
+  
+            // settings for map chart
+            map
+              .padding([10, 0, 10, 10])
+              .geoData('anychart.maps.united_states_of_america')
+              .interactivity({ selectionMode: 'none' });
+  
+            map
+              .title()
+              .enabled(true)
+              .useHtml(true)
+              .padding([10, 0, 10, 0])
+              .text(
+                'Drug Overdose Deaths by State between 2014-2019<br/>' +
+                '<span style="color:#929292; font-size: 12px;">' +
+                '(Hover cursor over state to see drug overdose death statistics by state)</span>'
+              );
+  
+            // create choropleth series for map chart
+            var mapSeries = map.choropleth(anychart.data.set(drugoverdosedeaths));
+            mapSeries
+              .geoIdField('code_hasc')
+              .colorScale(
+                anychart.scales.linearColor('#f2f2f2', '#42a5f5', '#1976d2')
+              );
+  
+            mapSeries
+              .hovered()
+              .fill(mapSeries.fill())
+              .stroke(mapSeries.stroke());
+  
+            // custom text in tooltips for choropleth series for map chart
+            mapSeries
+              .tooltip()
+              .useHtml(true)
+              .titleFormat('{%Id}')
+              .format(function () {
+                var amount =
+                  '<span style="color: #d9d9d9;">There are no drug overdose deaths in ' +
+                  this.getData('name');
+                if (this.value > 0 && this.value === 1) {
+                  amount =
+                    '<span style="color: #d9d9d9;">' +
+                    '<strong><span style="color: #fff;">' +
+                    this.value +
+                    ' </span></strong>drug overdose deaths in ' +
+                    this.getData('name') +
+                    '</span><br/>Click to see more.';
+                } else if (this.value > 1) {
+                  amount =
+                    '<span style="color: #d9d9d9;">' +
+                    '<strong><span style="color: #fff;">' +
+                    this.value +
+                    ' </span></strong>drug overdose deaths in ' +
+                    this.getData('name');
+                }
+                return amount;
+              });
+  
+            // set container id for the chart
+            map.container('container');
+            // initiate chart drawing
+            map.draw();
+          }
+        );
+      });
+    
+  </script>
+  </body>
+  </html>
+                  
