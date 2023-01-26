@@ -71,6 +71,9 @@ function barChartPres(pillow) {
   //color options
   let colorlist = [ 'red','orangered','orange', 'yellow','yellowgreen', 'green','blue','mediumblue','rebeccapurple','indigo'];//pairs with Jet and Portland
   let colorlist2 = ['#f0f921','#fdca26','#fb9f3a','#ed7953','#d8576b','#bd3786','#9c179e','#7201a8','#46039f','#0d0887']//reverse plasma
+  let colorlist3 = [
+    // '#fff5f0', '#fee0d2',
+  '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
 
   let trace1 = {
       x: barx,
@@ -78,7 +81,7 @@ function barChartPres(pillow) {
       text: barz,
       type: 'bar',
       orientation: 'v',
-      marker:{color: colorlist2}
+      marker:{color: colorlist3}
     };
     let data1 = [trace1];
     
@@ -143,6 +146,10 @@ function barChartDeaths(bob) {
   //color options
   let colorlist = [ 'red','orangered','orange', 'yellow','yellowgreen', 'green','blue','mediumblue','rebeccapurple','indigo'];//pairs with Jet and Portland
   let colorlist2 = ['#f0f921','#fdca26','#fb9f3a','#ed7953','#d8576b','#bd3786','#9c179e','#7201a8','#46039f','#0d0887']//reverse plasma
+  let colorlist3 = [
+    // '#fff5f0', '#fee0d2',
+    '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
+
 
   let trace1 = {
       x: barx,
@@ -150,7 +157,7 @@ function barChartDeaths(bob) {
       text: barz,
       type: 'bar',
       orientation: 'v',
-      marker:{color: colorlist2}
+      marker:{color: colorlist3}
     };
     let data1 = [trace1];
     
