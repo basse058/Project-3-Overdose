@@ -2,8 +2,8 @@
 // console.log(result)
 
 // const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
-const urlPres = '../ODispTransposed2013_2019.json'
-const urlDeaths = '../OpioidDeathsAllTransposed.json'
+const urlPres = 'ODispTransposed2013_2019.json'
+const urlDeaths = 'OpioidDeathsAllTransposed.json'
 const stateAbb = 'AL'
 
 const dataPromise = d3.json(urlPres);
