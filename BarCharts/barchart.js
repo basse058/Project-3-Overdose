@@ -23,51 +23,36 @@ let dropdown = d3.select("#selDataset");//selects by html id
 dropdown.on("change", function() {//when there is a change in the selection, do the function
   userChoice = this.value; //captures the userChoice from the ddl as the Test Sample ID (940)
   console.log(userChoice);
-  // const userChoiceIndex = (element) => element == userChoice;//this is the testing function (find where list element = userChoice)
-  // console.log(userChoiceIndex);
-  // nameIndex = data.names.findIndex(userChoiceIndex);//takes the userChoice and finds the associated index number (0)
-  // console.log(nameIndex);
-  // // d3.select('.panel-body').html("");//clears out the demographic info 
-  //run the following functions with the new nameIndex
-  barChartPres(userChoice);
-  barChartDeaths(userChoice);
+  barChartPres(userChoice);//reruns the barChartPres with the userChoice state
+  barChartDeaths(userChoice);//reruns the barChartDeaths with the userChoice state
   // CODYcharts(nameIndex);
 });
 
 
-// const stateAbb = 'AL'
-const dataPromise = d3.json(urlPres);
+
+const dataPromise = d3.json(urlPres); 
 console.log("Data Promise: ", dataPromise);
 
-// console.log(stateAbb);
-let Prescription
+let Prescription //stores data from ODispTransposed2013_2019.json  - will be available to all functions
 d3.json(urlPres).then(function(dataP) {
 Prescription = dataP
     console.log(dataP.AK[0]);
     console.log(dataP.AK[3]);
-    console.log(dataP['Opioid Dispense Rate'][0]);
-    console.log(dataP['Opioid Dispense Rate'][3]);
+    console.log(dataP['Year'][0]);
+    console.log(dataP['Year'][3]);
     barChartPres(state);
-});
+}); //this call function pulls the data from ODispTransposed2013_2019.json
 
 //bar chart for drug prescription rates by state
-function barChartPres(pillow) {
-  let state = Prescription[pillow]
+function barChartPres(stateAbb) {
+  let state = Prescription[stateAbb]
   let bary = [state[0],state[1],state['2'],state['3'],state['4'],state['5'],state['6']];
-
-  // for (let i=0; i<7; i++) {
-  //   bary.append(data[nameIndex][i])
-  // };
-  // for (dnI in data.nameIndex) {
-  //   bary.append(data.nameIndex[dnI])
-  // };//sample_values
-  let barx = Prescription['Opioid Dispense Rate'];//otu_ids, use this to build string for chart
-  // let barystr = []// use this for bar chart
-  // bary.forEach(pear => barystr.push(`OTU_${pear}`));
-  let barz = Prescription['Opioid Dispense Rate'];//otu_labels
+  let xlist = Prescription['Year']
+  let barx = [xlist[0],xlist[1],xlist[2],xlist[3],xlist[4],xlist[5],xlist[6]];
+  let barz = [xlist[0],xlist[1],xlist[2],xlist[3],xlist[4],xlist[5],xlist[6]];
   console.log(barx)
   console.log(bary)
-  // console.log(barz)
+  console.log(barz)
   //color options
   let colorlist = [ 'red','orangered','orange', 'yellow','yellowgreen', 'green','blue','mediumblue','rebeccapurple','indigo'];//pairs with Jet and Portland
   let colorlist2 = ['#f0f921','#fdca26','#fb9f3a','#ed7953','#d8576b','#bd3786','#9c179e','#7201a8','#46039f','#0d0887']//reverse plasma
@@ -86,7 +71,7 @@ function barChartPres(pillow) {
     let data1 = [trace1];
     
     let layout1 = {
-      // title: {text: `ID_${data.names[nameIndex]} Top 10 OTUs<br><sup>(Operational Taxonomic Units)</sup>`,font: { size: 24 } },
+      title: {text: `Opioid Prescription Dispense Rate for ${stateAbb}`},
       showlegend: false,
       height: 400,
       width: 500,
@@ -119,27 +104,18 @@ Deaths= dataD
     console.log(dataD.AK[3]);
     console.log(dataD['Number_of_Deaths_by_Year'][0]);
     console.log(dataD['Number_of_Deaths_by_Year'][3]);
-
+    barChartDeaths(state);
   // let state = dataD[stateAbb]
   //   console.log(state)
-  barChartDeaths(state);
+  
 
 });
 
-function barChartDeaths(bob) {
-  let state = Deaths[bob]
+function barChartDeaths(stateAbb) {
+  let state = Deaths[stateAbb]
   let bary = [state[0],state[1],state['2'],state['3'],state['4'],state['5'],state['6']];
-
-  // for (let i=0; i<7; i++) {
-  //   bary.append(data[nameIndex][i])
-  // };
-  // for (dnI in data.nameIndex) {
-  //   bary.append(data.nameIndex[dnI])
-  // };//sample_values
-  let barx = Deaths['Number_of_Deaths_by_Year'];//otu_ids, use this to build string for chart
-  // let barystr = []// use this for bar chart
-  // bary.forEach(pear => barystr.push(`OTU_${pear}`));
-  let barz = Deaths['Number_of_Deaths_by_Year'];//otu_labels
+  let barx = Deaths['Number_of_Deaths_by_Year'];
+  let barz = Deaths['Number_of_Deaths_by_Year'];
   console.log(barx)
   console.log(bary)
   // console.log(barz)
@@ -162,7 +138,7 @@ function barChartDeaths(bob) {
     let data1 = [trace1];
     
     let layout1 = {
-      // title: {text: `ID_${data.names[nameIndex]} Top 10 OTUs<br><sup>(Operational Taxonomic Units)</sup>`,font: { size: 24 } },
+      title: {text: `Number of Overdose Deaths per Year for ${stateAbb}`},
       showlegend: false,
       height: 400,
       width: 500,
