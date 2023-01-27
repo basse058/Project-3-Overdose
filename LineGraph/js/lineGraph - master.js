@@ -1,5 +1,5 @@
-const urlLine = 'http://127.0.0.1:5000/api/v1.0/od_data'
-//const urlLinr = 'https://project-3-h7kg.onrender.com/api/v1.0/od_data'
+//const urlLine = 'http://127.0.0.1:5000/api/v1.0/od_data'
+const urlLine = 'https://project-3-h7kg.onrender.com/api/v1.0/od_data'
 
 const ddlList = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
 let myddl = d3.select('select');
