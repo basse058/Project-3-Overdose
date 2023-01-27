@@ -75,7 +75,11 @@ function barChartPres(stateAbb) {
       showlegend: false,
       height: 400,
       width: 500,
-      xaxis: {title:"Opioid Dispense Rate"},
+      xaxis: {title:"ODR",
+              ticks:'outside',
+              tick0:'2013',
+              dtick: 1
+            },
       margin: { t: 50, r: 25, l: 75, b: 35},
       paper_bgcolor: "aliceblue",
       font: { color: "darkblue", family: "Arial" }
@@ -113,9 +117,10 @@ Deaths= dataD
 
 function barChartDeaths(stateAbb) {
   let state = Deaths[stateAbb]
-  let bary = [state[0],state[1],state['2'],state['3'],state['4'],state['5'],state['6']];
-  let barx = Deaths['Number_of_Deaths_by_Year'];
-  let barz = Deaths['Number_of_Deaths_by_Year'];
+  let bary = [state[0],state[1],state['2'],state['3'],state['4'],state['5']];
+  let xlist = Deaths['Number_of_Deaths_by_Year'];
+  let barx = [xlist[0],xlist[1],xlist['2'],xlist['3'],xlist['4'],xlist['5']];
+  let barz = [xlist[0],xlist[1],xlist['2'],xlist['3'],xlist['4'],xlist['5']];
   console.log(barx)
   console.log(bary)
   // console.log(barz)
@@ -142,7 +147,11 @@ function barChartDeaths(stateAbb) {
       showlegend: false,
       height: 400,
       width: 500,
-      xaxis: {title:"Number of Deaths per Year"},
+      xaxis: {title:"Overdose Deaths",
+              ticks:'outside',
+              tick0:'2014',
+              dtick: 1
+            },
       margin: { t: 50, r: 25, l: 75, b: 35},
       paper_bgcolor: "aliceblue",
       font: { color: "darkblue", family: "Arial" }
