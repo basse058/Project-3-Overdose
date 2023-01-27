@@ -9,4 +9,4 @@ Finally a working map - https://basse058.github.io/Project-3-Overdose/plotly-map
 
 https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html
 
-https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychartmap.html
+https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html
