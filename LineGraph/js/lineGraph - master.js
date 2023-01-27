@@ -12,7 +12,7 @@ let myddl = d3.select('select');
     newOption.text(currentValue)
   });
 
-let state = 'AL'
+/* let state = 'AL' */
 
 let dropdown = d3.select("#selDataset");//selects by html id
 dropdown.on("change", function() {//when there is a change in the selection, do the function
@@ -91,7 +91,7 @@ function renderChart(series) {
 		legend_visible: false,
 		xAxis_crosshair_enabled: true,
 		defaultSeries_lastPoint_label_text: '<b>%seriesName</b>',
-		defaultPoint_tooltip: '%seriesName <b>%yValue</b> Deahts: ',
+		defaultPoint_tooltip: '%seriesName <b>%yValue</b> Deaths: ',
 		series: series
 	});
 }
