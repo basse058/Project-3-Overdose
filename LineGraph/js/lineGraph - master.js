@@ -91,7 +91,7 @@ function renderChart(series) {
 		legend_visible: false,
 		xAxis_crosshair_enabled: true,
 		defaultSeries_lastPoint_label_text: '<b>%seriesName</b>',
-		defaultPoint_tooltip: '%seriesName <b>%yValue</b> years',
+		defaultPoint_tooltip: '%seriesName <b>%yValue</b> Deahts: ',
 		series: series
 	});
 }
