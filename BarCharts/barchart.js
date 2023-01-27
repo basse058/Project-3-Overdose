@@ -59,7 +59,9 @@ function barChartPres(stateAbb) {
   let colorlist3 = [
     // '#fff5f0', '#fee0d2',
   '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
-
+  let colorlist4 = [
+  //'#f7fbff','#deebf7',
+  '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];
   let trace1 = {
       x: barx,
       y: bary,
@@ -130,7 +132,9 @@ function barChartDeaths(stateAbb) {
   let colorlist3 = [
     // '#fff5f0', '#fee0d2',
     '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
-
+  let colorlist4 = [
+    //'#f7fbff','#deebf7',
+    '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];
 
   let trace1 = {
       x: barx,
