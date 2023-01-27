@@ -48,7 +48,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <br>
 <h2>Bar Charts</h2>
 <h3>Bar Chart 1  ~ (Chris)<br>
-https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
+https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <h3>Extract</h3>
 <ul>
   <li>fgldakfjhgv</li>
@@ -66,7 +66,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 </ul>
 <br>
 <h3>Bar Chart 2  ~ (Madina)<br>
-https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
+https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <h3>Extract</h3>
 <ul>
   <li>fgldakfjhgv</li>
