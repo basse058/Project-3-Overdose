@@ -89,7 +89,7 @@ h3 {
 
 
 /* other object formatting */
-#gauge {
+.chartz {
     width: 500;
     height: 400;
     margin-top: 100;
