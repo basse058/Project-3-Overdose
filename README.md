@@ -1,5 +1,6 @@
+<img src=/assets/header-opioid-epidemic.png>
+<br>
 <h1>Project 3: Opioid Drug Overdose Deaths</h1>
-
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 
