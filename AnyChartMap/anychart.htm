@@ -49,6 +49,7 @@
               .useHtml(true)
               .padding([10, 0, 10, 0])
               .text(
+                'AnyChart Map ~ Made with AnyChart.js<br><br/>' +
                 'Drug Overdose Deaths by State between 2014-2019<br/>' +
                 '<span style="color:#929292; font-size: 12px;">' +
                 '(Hover cursor over state to see drug overdose death statistics by state)</span>'
@@ -59,7 +60,7 @@
             mapSeries
               .geoIdField('code_hasc')
               .colorScale(
-                anychart.scales.linearColor('#f2f2f2', '#42a5f5', '#1976d2')
+                anychart.scales.linearColor('#f2f2f2', '#fcbba1', '#67000d')
               );
   
             mapSeries
