@@ -52,14 +52,14 @@ def data():
 
     """Return a list of all passenger names"""
     # Query all passengers
-    results = session.query(overdose.year, overdose.month, overdose.overdose_deaths, overdose.state, overdose.state_name, overdose.date).all()
+    results = session.query(overdose.year, overdose.month, overdose.overdose_deaths, overdose.state, overdose.state_name).all()
 
     session.close()
 
 
     # Create a dictionary from the row data and append to a list of all_passengers
     all_overdoses = []
-    for year, month, overdose_deaths, state, state_name, date in results:
+    for year, month, overdose_deaths, state, state_name in results:
         overdose_dict = {}
 
         overdose_dict["year"] = year
@@ -67,7 +67,7 @@ def data():
         overdose_dict["overdose_deaths"] = overdose_deaths
         overdose_dict["state"] = state
         overdose_dict["state_name"] = state_name
-        overdose_dict["date"] = date
+
 
         all_overdoses.append(overdose_dict)
 
