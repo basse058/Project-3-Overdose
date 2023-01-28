@@ -102,7 +102,7 @@ https://project-3-h7kg.onrender.com/</h3>
 <h2>Presentation</h2>
 <h3>Slideshow ~ (Madina)<br>
 https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
-(insert image here)
+<img src="assets/google-slides-presentation.jpg">
 <h3>Title</h3>
 <ul>
 <li>List1</li>
@@ -111,11 +111,13 @@ https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 </ul>
 <br>
 <h3>Elements</h3>
-<ul>Render Webpage: https://project-3-h7kg.onrender.com/</ul>
-<ul>Website ~ https://basse058.github.io/Project-3-Overdose/templates/index.html</ul>
-<ul>Plotly Map - https://basse058.github.io/Project-3-Overdose/plotly-map</ul>
-<ul>AnyChart Map ~ https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html</ul>
-<ul>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</ul>
+<ul>
+<li>Render Webpage: https://project-3-h7kg.onrender.com/</li>
+<li>Bootstrap Website ~ https://basse058.github.io/Project-3-Overdose/templates/index.html</li>
+<li>Plotly Map - https://basse058.github.io/Project-3-Overdose/plotly-map</li>
+<li>AnyChart Map ~ https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html</li>
+<li>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</li>
+ </ul>
 <br>
 <h3>Data</h3>
 <ul>
