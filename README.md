@@ -91,6 +91,7 @@ https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3
 <h2>Render</h2>
 <h3>OnRender Website ~ (Cody)<br>
 https://project-3-h7kg.onrender.com/</h3>
+(insert image here)
 <h3>Title</h3>
 <ul>
 <li>List1</li>
@@ -101,6 +102,7 @@ https://project-3-h7kg.onrender.com/</h3>
 <h2>Presentation</h2>
 <h3>Slideshow ~ (Madina)<br>
 https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
+(insert image here)
 <h3>Title</h3>
 <ul>
 <li>List1</li>
