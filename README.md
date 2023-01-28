@@ -1,6 +1,11 @@
 <img src=/assets/header-opioid-epidemic.png>
 <br>
 <h1>Project 3: Opioid Drug Overdose Deaths</h1>
+
+**Project Description**
+
+This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2019. The data used was primarily contained within a CSV file found on CDC.gov called ["Opioid Overdose Deaths” (2014-2019)](https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html). Web scraping was done to get the opioid dispense rate from CDC.gov ["U.S. State Opioid Dispensing Rate"(2013-2019)](https://www.cdc.gov/drugoverdose/rxrate-maps/index.html). Another data used from CDC.gov is ["Provisional Drug Overdose Death Counts" (2015-2022)](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm).
+
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 
@@ -48,6 +53,8 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 </ul>
 <br>
 <h2>Bar Charts</h2>
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/111404552/215232103-79817c84-8aa1-444d-a096-d737826fcf52.png">
+
 <h3>Bar Chart 1  ~ (Chris)<br>
 https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <h3>Extract</h3>
