@@ -42,7 +42,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <h3>Transform</h3>
 <ul>
   <li>Data cleaned by renaming columns as appropriate.</li>
-  <li>OpioidsDeathAll.csv data cleaned/formatted into OpioidsDeathAll-cleaned-3.csv.</li>
+  <li><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> data cleaned/formatted into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll-cleaned-3.csv">OpioidDeathsAll-cleaned-3.csv</a> file.</li>
 </ul>
 <h3>Load</h3>
 <ul>
