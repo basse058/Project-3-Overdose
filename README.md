@@ -1,6 +1,12 @@
 <img src=/assets/header-opioid-epidemic.png>
 <br>
 <h1>Project 3: Opioid Drug Overdose Deaths</h1>
+
+Project Description
+
+
+This project analyzes opioid overdose data from the United States for all states for year range incluging 2013 and 2019. The data used was primarily contained within a csv file found on CDC.gov called ["the name of the data” (2013-2019)](link for the data). Web scraping were done to get opioid dispense rate from CDC.gov (another link). Cody's data from CDC too?
+
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 
