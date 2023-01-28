@@ -53,6 +53,8 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 </ul>
 <br>
 <h2>Bar Charts</h2>
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/111404552/215232103-79817c84-8aa1-444d-a096-d737826fcf52.png">
+
 <h3>Bar Chart 1  ~ (Chris)<br>
 https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <h3>Extract</h3>
