@@ -37,17 +37,17 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
-  <li>Data cut & pasted into excel and converted to OpiodsDeathAll.csv by Chris G.</li>
+  <li>Data cut & pasted into excel and converted to OpioidsDeathAll.csv by Chris G.</li>
 </ul>
 <h3>Transform</h3>
 <ul>
   <li>Data cleaned by renaming columns as appropriate.</li>
-  <li>OpiodsDeathAll.csv data cleaned/formatted into OpiodsDeathAll-cleaned-3.csv.</li>
+  <li>OpioidsDeathAll.csv data cleaned/formatted into OpiodsDeathAll-cleaned-3.csv.</li>
 </ul>
 <h3>Load</h3>
 <ul>
   <li>OpiodsDeathAll-cleaned-3 imported via pandas into plotly-map.py</li>
-  <li>plotly-map.py coded with df to include specific data from OpiodsDeathAll-cleaned-3</li>
+  <li>plotly-map.py coded with df to include specific data from OpioidsDeathAll-cleaned-3</li>
   <li>Used plotly-map.py to read data, create datafram, build map and output html file.</li>
 </ul>
 <br>
