@@ -2,13 +2,27 @@
 <br>
 <h1>Project 3: Opioid Drug Overdose Deaths</h1>
 
-**Project Description**
+<h2>Project Description</h2>
 
-This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2022. The data used was primarily contained within a CSV file found on CDC.gov called ["Drug Overdose Death” (2014-2019)](https://www.cdc.gov/drugoverdose/deaths/index.html). Web scraping was done to get the opioid dispense rate from CDC.gov ["U.S. State Opioid Dispensing Rate"(2013-2019)](https://www.cdc.gov/drugoverdose/rxrate-maps/index.html). Another data used from CDC.gov to visualize data is ["Provisional Drug Overdose Death Counts" (2015-2022)](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm).
+<h4>This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2019.
+The data used was primarily contained within a CSV file found on the CDC website called "Opioid Overdose Deaths” (2014-2019.
+<ul>
+<li>https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html</li>. 
+</ul>
+Web scraping was done to get the opioid dispense rate from the CDC data "U.S. State Opioid Dispensing Rate 2013-2019".
+<ul>
+<li>https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</li>
+</ul>
+Data was also used from the CDC data "Provisional Drug Overdose Death Counts 2015-2022".
+<ul>
+<li>https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</li>
+</ul>
+<br>
+</h4>
 
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
-
+<img src="assets/project-3-overdose-webpage-screenshot.jpg">
 <ul>
   <li>Created header and footer.</li>
   <li>Created boxed layout.</li>
@@ -20,6 +34,7 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 <h2>Choropleth Maps</h2>
 <h3>Plotly Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
+<img src="assets/plotly-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
   <li>Data cut & pasted into excel and converted to OpiodsDeathAll.csv by Chris G.</li>
@@ -38,6 +53,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <br>
 <h3>AnyChart Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
+<img src="assets/anychart-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
   <li>Data copied from previous map into data.json file for AnyChart Choropleth Map</li>
