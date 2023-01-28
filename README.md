@@ -46,7 +46,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 </ul>
 <h3>Load</h3>
 <ul>
-  <li>OpiodsDeathAll-cleaned-3 imported via pandas into plotly-map.py</li>
+  <li>OpioidsDeathAll-cleaned-3 imported via pandas into plotly-map.py</li>
   <li>plotly-map.py coded with df to include specific data from OpioidsDeathAll-cleaned-3</li>
   <li>Used plotly-map.py to read data, create datafram, build map and output html file.</li>
 </ul>
