@@ -56,7 +56,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
-  <li>Data copied from previous map into data.json file for AnyChart Choropleth Map</li>
+  <li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li>
 </ul>
 <h3>Transform</h3>
 <ul>
@@ -64,8 +64,8 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
   </ul>
 <h3>Load</h3>
 <ul>
-  <li>Javascript pulled from CDN into AnyChartMap.html</li>
-  <li>Data read from data.json</li>
+  <li>Javascript pulled from CDN into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/anychart.html">anychart.html</a></li>
+  <li>Data read from <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a></li>
 </ul>
 <br>
 <h2>Bar Charts</h2>
