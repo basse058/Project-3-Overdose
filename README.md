@@ -88,26 +88,19 @@ https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3
   <li>sfkg;jbnsfdjk;gb</li>
 </ul>
 <br>
-<h3>Bar Chart 2  ~ (Madina)<br>
-https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
-<h3>Extract</h3>
+<h2>Render</h2>
+<h3>OnRender Website ~ (Cody)<br>
+https://project-3-h7kg.onrender.com/</h3>
+<h3>Title</h3>
 <ul>
-  <li>fgldakfjhgv</li>
-</ul>
-<h3>Transform</h3>
-<ul>
-  <li>sdfvbk dsfvb</li>
-  <li>dfsvbjsdflhjbk</li>
-</ul>
-<h3>Load</h3>
-<ul>
-  <lifsgbsfdglojkb</li>
-  <li>fgb;flskjgb</li>
-  <li>sfkg;jbnsfdjk;gb</li>
+<li>List1</li>
+<li>List2</li>
+<li>List3</li>
 </ul>
 <br>
-<h2>Render Website ~ (Cody)<br>
-https://project-3-h7kg.onrender.com/</h2>
+<h2>Presentation</h2>
+<h3>Slideshow ~ (Madina)<br>
+https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <h3>Title</h3>
 <ul>
 <li>List1</li>
