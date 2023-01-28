@@ -9,11 +9,11 @@ The data used was primarily contained within a CSV file found on the CDC website
 <ul>
 <li>https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html</li>. 
 </ul>
-Web scraping was done to get the opioid dispense rate from the CDC data "U.S. State Opioid Dispensing Rate 2013-2019".
+"U.S. State Opioid Dispensing Rate 2013-2019 data was scraped from the CDC webpage:
 <ul>
 <li>https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</li>
 </ul>
-Data was also used from the CDC data "Provisional Drug Overdose Death Counts 2015-2022".
+"Provisional Drug Overdose Death Counts 2015-2022" data was also scraped from the CDC webpage:
 <ul>
 <li>https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</li>
 </ul>
