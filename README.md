@@ -37,7 +37,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
-  <li>Data scraped into excel and converted to OpioidsDeathAll.csv by Chris G.</li>
+  <li>Data scraped into excel and converted to <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
 </ul>
 <h3>Transform</h3>
 <ul>
