@@ -4,7 +4,7 @@
 
 **Project Description**
 
-This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2019. The data used was primarily contained within a CSV file found on CDC.gov called ["Drug Overdose Death” (2014-2019)](https://www.cdc.gov/drugoverdose/deaths/index.html)). Web scraping was done to get the opioid dispense rate from CDC.gov ["U.S. State Opioid Dispensing Rate"(2013-2019)](https://www.cdc.gov/drugoverdose/rxrate-maps/index.html). Another data used from CDC.gov to visualize data is ["Provisional Drug Overdose Death Counts" (2015-2022)](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm).
+This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2019. The data used was primarily contained within a CSV file found on CDC.gov called ["Drug Overdose Death” (2014-2019)](https://www.cdc.gov/drugoverdose/deaths/index.html). Web scraping was done to get the opioid dispense rate from CDC.gov ["U.S. State Opioid Dispensing Rate"(2013-2019)](https://www.cdc.gov/drugoverdose/rxrate-maps/index.html). Another data used from CDC.gov to visualize data is ["Provisional Drug Overdose Death Counts" (2015-2022)](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm).
 
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
