@@ -116,4 +116,8 @@ https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <ul>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</ul>
 <br>
 <h3>Data</h3>
-<ul>Data ~ https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</ul>
+<ul>
+<li>https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</li>
+<li>https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</li>
+<li>https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html</li>
+</ul>
