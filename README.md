@@ -70,7 +70,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <br>
 <h2>Interactive Visualizations</h2>
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png">
-<p> Data for each individual state can be viewed by selecting the state from the drop down list on the left.
+<p> <ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
  
 </p>
 <br>
@@ -88,11 +88,14 @@ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
   <li>individual csv files read into pandas DataFrames,</li>
   <li>df column names standardized and extraneous columns dropped,</li>
   <li>dfs merged into a single df for each dataset:
-    <ul>Opioid Prescription data from 2013-2019, or</ul>
-    <ul>Opioid Deaths data from 2014-2019.</ul>
-  <li>merged df for each dataset transposed into barchart-ready format. </li>
+    <ul>
+      <li>Opioid Prescription data from 2013-2019, or</li>
+      <li>Opioid Deaths data from 2014-2019.</li>
+    </ul>
+   </li>
+   <li>merged df for each dataset transposed into barchart-ready format.</li>
 </ul>
-
+  
 <h3>Load</h3>
 <ul>
   <li>Transposed dfs saved as JSON files for website use.</li>
