@@ -1,0 +1,358 @@
+State,Abbreviation,Age_adjusted_rate,Number_of_Deaths,Year
+Alabama,AL,15.2,723,2014
+Alaska,AK,16.8,124,2014
+Arizona,AZ,18.2,1211,2014
+Arkansas,AR,12.6,356,2014
+California,CA,11.1,4521,2014
+Colorado,CO,16.3,899,2014
+Connecticut,CT,17.6,623,2014
+Delaware,DE,20.9,189,2014
+District Of Columbia,DC,14.2,96,2014
+Florida,FL,13.2,2634,2014
+Georgia,GA,11.9,1206,2014
+Hawaii,HI,10.9,157,2014
+Idaho,ID,13.7,212,2014
+Illinois,IL,13.1,1705,2014
+Indiana,IN,18.2,1172,2014
+Iowa,IA,8.8,264,2014
+Kansas,KS,11.7,332,2014
+Kentucky,KY,24.7,1077,2014
+Louisiana,LA,16.9,777,2014
+Maine,ME,16.8,216,2014
+Maryland,MD,17.4,1070,2014
+Massachusetts,MA,19.0,1289,2014
+Michigan,MI,18.0,1762,2014
+Minnesota,MN,9.6,517,2014
+Mississippi,MS,11.6,336,2014
+Missouri,MO,18.2,1067,2014
+Montana,MT,12.4,125,2014
+Nebraska,NE,7.2,125,2014
+Nevada,NV,18.4,545,2014
+New Hampshire,NH,26.2,334,2014
+New Jersey,NJ,14.0,1253,2014
+New Mexico,NM,27.3,547,2014
+New York,NY,11.3,2300,2014
+North Carolina,NC,13.8,1358,2014
+North Dakota,ND,6.3,43,2014
+Ohio,OH,24.6,2744,2014
+Oklahoma,OK,20.3,777,2014
+Oregon,OR,12.8,522,2014
+Pennsylvania,PA,21.9,2732,2014
+Rhode Island,RI,23.4,247,2014
+South Carolina,SC,14.4,701,2014
+South Dakota,SD,7.8,63,2014
+Tennessee,TN,19.5,1269,2014
+Texas,TX,9.7,2601,2014
+Utah,UT,22.4,603,2014
+Vermont,VT,13.9,83,2014
+Virginia,VA,11.7,980,2014
+Washington,WA,13.3,979,2014
+West Virginia,WV,35.5,627,2014
+Wisconsin,WI,15.1,853,2014
+Wyoming,WY,19.4,109,2014
+Alabama,AL,15.7,736,2015
+Alaska,AK,16.0,122,2015
+Arizona,AZ,19.0,1274,2015
+Arkansas,AR,13.8,392,2015
+California,CA,11.3,4659,2015
+Colorado,CO,15.4,869,2015
+Connecticut,CT,22.1,800,2015
+Delaware,DE,22.0,198,2015
+District Of Columbia,DC,18.6,125,2015
+Florida,FL,16.2,3228,2015
+Georgia,GA,12.7,1302,2015
+Hawaii,HI,11.3,169,2015
+Idaho,ID,14.2,218,2015
+Illinois,IL,14.1,1835,2015
+Indiana,IN,19.5,1245,2015
+Iowa,IA,10.3,309,2015
+Kansas,KS,11.8,329,2015
+Kentucky,KY,29.9,1273,2015
+Louisiana,LA,19.0,861,2015
+Maine,ME,21.2,269,2015
+Maryland,MD,20.9,1285,2015
+Massachusetts,MA,25.7,1724,2015
+Michigan,MI,20.4,1980,2015
+Minnesota,MN,10.6,581,2015
+Mississippi,MS,12.3,351,2015
+Missouri,MO,17.9,1066,2015
+Montana,MT,13.8,138,2015
+Nebraska,NE,6.9,126,2015
+Nevada,NV,20.4,619,2015
+New Hampshire,NH,34.3,422,2015
+New Jersey,NJ,16.3,1454,2015
+New Mexico,NM,25.3,501,2015
+New York,NY,13.6,2754,2015
+North Carolina,NC,15.8,1567,2015
+North Dakota,ND,8.6,61,2015
+Ohio,OH,29.9,3310,2015
+Oklahoma,OK,19.0,725,2015
+Oregon,OR,12.0,505,2015
+Pennsylvania,PA,26.3,3264,2015
+Rhode Island,RI,28.2,310,2015
+South Carolina,SC,15.7,761,2015
+South Dakota,SD,8.4,65,2015
+Tennessee,TN,22.2,1457,2015
+Texas,TX,9.4,2588,2015
+Utah,UT,23.4,646,2015
+Vermont,VT,16.7,99,2015
+Virginia,VA,12.4,1039,2015
+Washington,WA,14.7,1094,2015
+West Virginia,WV,41.5,725,2015
+Wisconsin,WI,15.5,878,2015
+Wyoming,WY,16.4,96,2015
+Alabama,AL,16.2,756,2016
+Alaska,AK,16.8,128,2016
+Arizona,AZ,20.3,1382,2016
+Arkansas,AR,14.0,401,2016
+California,CA,11.2,4654,2016
+Colorado,CO,16.6,942,2016
+Connecticut,CT,27.4,971,2016
+Delaware,DE,30.8,282,2016
+District Of Columbia,DC,38.8,269,2016
+Florida,FL,23.7,4728,2016
+Georgia,GA,13.3,1394,2016
+Hawaii,HI,12.8,191,2016
+Idaho,ID,15.2,243,2016
+Illinois,IL,18.9,2411,2016
+Indiana,IN,24.0,1526,2016
+Iowa,IA,10.6,314,2016
+Kansas,KS,11.1,313,2016
+Kentucky,KY,33.5,1419,2016
+Louisiana,LA,21.8,996,2016
+Maine,ME,28.7,353,2016
+Maryland,MD,33.2,2044,2016
+Massachusetts,MA,33.0,2227,2016
+Michigan,MI,24.4,2347,2016
+Minnesota,MN,12.5,672,2016
+Mississippi,MS,12.1,352,2016
+Missouri,MO,23.6,1371,2016
+Montana,MT,11.7,119,2016
+Nebraska,NE,6.4,120,2016
+Nevada,NV,21.7,665,2016
+New Hampshire,NH,39.0,481,2016
+New Jersey,NJ,23.2,2056,2016
+New Mexico,NM,25.2,500,2016
+New York,NY,18.0,3638,2016
+North Carolina,NC,19.7,1956,2016
+North Dakota,ND,10.6,77,2016
+Ohio,OH,39.1,4329,2016
+Oklahoma,OK,21.5,813,2016
+Oregon,OR,11.9,506,2016
+Pennsylvania,PA,37.9,4627,2016
+Rhode Island,RI,30.8,326,2016
+South Carolina,SC,18.1,879,2016
+South Dakota,SD,8.4,69,2016
+Tennessee,TN,24.5,1630,2016
+Texas,TX,10.1,2831,2016
+Utah,UT,22.4,635,2016
+Vermont,VT,22.2,125,2016
+Virginia,VA,16.7,1405,2016
+Washington,WA,14.5,1102,2016
+West Virginia,WV,52.0,884,2016
+Wisconsin,WI,19.3,1074,2016
+Wyoming,WY,17.6,99,2016
+Alabama,AL,18.0,835,2017
+Alaska,AK,20.2,147,2017
+Arizona,AZ,22.2,1532,2017
+Arkansas,AR,15.5,446,2017
+California,CA,11.7,4868,2017
+Colorado,CO,17.6,1015,2017
+Connecticut,CT,30.9,1072,2017
+Delaware,DE,37.0,338,2017
+District Of Columbia,DC,44.0,310,2017
+Florida,FL,25.1,5088,2017
+Georgia,GA,14.7,1537,2017
+Hawaii,HI,13.8,203,2017
+Idaho,ID,14.4,236,2017
+Illinois,IL,21.6,2778,2017
+Indiana,IN,29.4,1852,2017
+Iowa,IA,11.5,341,2017
+Kansas,KS,11.8,333,2017
+Kentucky,KY,37.2,1566,2017
+Louisiana,LA,24.5,1108,2017
+Maine,ME,34.4,424,2017
+Maryland,MD,36.3,2247,2017
+Massachusetts,MA,31.8,2168,2017
+Michigan,MI,27.8,2694,2017
+Minnesota,MN,13.3,733,2017
+Mississippi,MS,12.2,354,2017
+Missouri,MO,23.4,1367,2017
+Montana,MT,11.7,119,2017
+Nebraska,NE,8.1,152,2017
+Nevada,NV,21.6,676,2017
+New Hampshire,NH,37.0,467,2017
+New Jersey,NJ,30.0,2685,2017
+New Mexico,NM,24.8,493,2017
+New York,NY,19.4,3921,2017
+North Carolina,NC,24.1,2414,2017
+North Dakota,ND,9.2,68,2017
+Ohio,OH,46.3,5111,2017
+Oklahoma,OK,20.1,775,2017
+Oregon,OR,12.4,530,2017
+Pennsylvania,PA,44.3,5388,2017
+Rhode Island,RI,31.0,320,2017
+South Carolina,SC,20.5,1008,2017
+South Dakota,SD,8.5,73,2017
+Tennessee,TN,26.6,1776,2017
+Texas,TX,10.5,2989,2017
+Utah,UT,22.3,650,2017
+Vermont,VT,23.2,134,2017
+Virginia,VA,17.9,1507,2017
+Washington,WA,15.2,1169,2017
+West Virginia,WV,57.8,974,2017
+Wisconsin,WI,21.2,1177,2017
+Wyoming,WY,12.2,69,2017
+Alabama,AL,16.6,775,2018
+Alaska,AK,14.6,110,2018
+Arizona,AZ,23.8,1670,2018
+Arkansas,AR,15.7,444,2018
+California,CA,12.8,5348,2018
+Colorado,CO,16.8,995,2018
+Connecticut,CT,30.7,1069,2018
+Delaware,DE,43.8,401,2018
+District Of Columbia,DC,35.4,254,2018
+Florida,FL,22.8,4698,2018
+Georgia,GA,13.2,1404,2018
+Hawaii,HI,14.3,213,2018
+Idaho,ID,14.6,250,2018
+Illinois,IL,21.3,2722,2018
+Indiana,IN,25.6,1629,2018
+Iowa,IA,9.6,287,2018
+Kansas,KS,12.4,345,2018
+Kentucky,KY,30.9,1315,2018
+Louisiana,LA,25.4,1140,2018
+Maine,ME,27.9,345,2018
+Maryland,MD,37.2,2324,2018
+Massachusetts,MA,32.8,2241,2018
+Michigan,MI,26.6,2591,2018
+Minnesota,MN,11.5,636,2018
+Mississippi,MS,10.8,310,2018
+Missouri,MO,27.5,1610,2018
+Montana,MT,12.2,125,2018
+Nebraska,NE,7.4,138,2018
+Nevada,NV,21.2,688,2018
+New Hampshire,NH,35.8,452,2018
+New Jersey,NJ,33.1,2900,2018
+New Mexico,NM,26.7,537,2018
+New York,NY,18.4,3697,2018
+North Carolina,NC,22.4,2259,2018
+North Dakota,ND,10.2,70,2018
+Ohio,OH,35.9,3980,2018
+Oklahoma,OK,18.4,716,2018
+Oregon,OR,12.6,547,2018
+Pennsylvania,PA,36.1,4415,2018
+Rhode Island,RI,30.1,317,2018
+South Carolina,SC,22.6,1125,2018
+South Dakota,SD,6.9,57,2018
+Tennessee,TN,27.5,1823,2018
+Texas,TX,10.4,3005,2018
+Utah,UT,21.2,624,2018
+Vermont,VT,26.6,153,2018
+Virginia,VA,17.1,1448,2018
+Washington,WA,14.8,1164,2018
+West Virginia,WV,51.5,856,2018
+Wisconsin,WI,19.2,1079,2018
+Wyoming,WY,11.1,66,2018
+Alabama,AL,16.3,768,2019
+Alaska,AK,17.8,132,2019
+Arizona,AZ,26.8,1907,2019
+Arkansas,AR,13.5,388,2019
+California,CA,15.0,6198,2019
+Colorado,CO,18.0,1079,2019
+Connecticut,CT,34.7,1214,2019
+Delaware,DE,48.0,435,2019
+District Of Columbia,DC,43.2,311,2019
+Florida,FL,25.5,5268,2019
+Georgia,GA,13.1,1408,2019
+Hawaii,HI,15.9,242,2019
+Idaho,ID,15.1,265,2019
+Illinois,IL,21.9,2790,2019
+Indiana,IN,26.6,1699,2019
+Iowa,IA,11.5,352,2019
+Kansas,KS,14.3,403,2019
+Kentucky,KY,32.5,1380,2019
+Louisiana,LA,28.3,1267,2019
+Maine,ME,29.9,371,2019
+Maryland,MD,38.2,2369,2019
+Massachusetts,MA,32.1,2210,2019
+Michigan,MI,24.4,2385,2019
+Minnesota,MN,14.2,792,2019
+Mississippi,MS,13.6,394,2019
+Missouri,MO,26.9,1583,2019
+Montana,MT,14.1,143,2019
+Nebraska,NE,8.7,161,2019
+Nevada,NV,20.1,647,2019
+New Hampshire,NH,32.0,407,2019
+New Jersey,NJ,31.7,2805,2019
+New Mexico,NM,30.2,599,2019
+New York,NY,18.2,3617,2019
+North Carolina,NC,22.3,2266,2019
+North Dakota,ND,11.4,82,2019
+Ohio,OH,38.3,4251,2019
+Oklahoma,OK,16.7,645,2019
+Oregon,OR,14.0,615,2019
+Pennsylvania,PA,35.6,4377,2019
+Rhode Island,RI,29.5,307,2019
+South Carolina,SC,22.7,1127,2019
+South Dakota,SD,10.5,86,2019
+Tennessee,TN,31.2,2089,2019
+Texas,TX,10.8,3136,2019
+Utah,UT,18.9,571,2019
+Vermont,VT,23.8,133,2019
+Virginia,VA,18.3,1547,2019
+Washington,WA,15.8,1259,2019
+West Virginia,WV,52.8,870,2019
+Wisconsin,WI,21.1,1201,2019
+Wyoming,WY,14.1,79,2019
+Alabama,AL,22.3,1029,2020
+Alaska,AK,22.0,160,2020
+Arizona,AZ,35.8,2550,2020
+Arkansas,AR,19.1,546,2020
+California,CA,21.8,8908,2020
+Colorado,CO,24.9,1492,2020
+Connecticut,CT,39.1,1371,2020
+Delaware,DE,47.3,444,2020
+District Of Columbia,DC,58.1,424,2020
+Florida,FL,35.0,7231,2020
+Georgia,GA,18.0,1916,2020
+Hawaii,HI,18.3,274,2020
+Idaho,ID,15.9,287,2020
+Illinois,IL,28.1,3549,2020
+Indiana,IN,36.7,2321,2020
+Iowa,IA,14.3,432,2020
+Kansas,KS,17.4,490,2020
+Kentucky,KY,49.2,2083,2020
+Louisiana,LA,42.7,1896,2020
+Maine,ME,39.7,496,2020
+Maryland,MD,44.6,2771,2020
+Massachusetts,MA,33.9,2302,2020
+Michigan,MI,28.6,2759,2020
+Minnesota,MN,19.0,1050,2020
+Mississippi,MS,21.1,586,2020
+Missouri,MO,32.1,1875,2020
+Montana,MT,15.6,162,2020
+Nebraska,NE,11.3,214,2020
+Nevada,NV,26.0,832,2020
+New Hampshire,NH,30.3,393,2020
+New Jersey,NJ,32.1,2840,2020
+New Mexico,NM,39.0,784,2020
+New York,NY,25.4,4965,2020
+North Carolina,NC,30.9,3146,2020
+North Dakota,ND,15.6,114,2020
+Ohio,OH,47.2,5204,2020
+Oklahoma,OK,19.4,762,2020
+Oregon,OR,18.7,803,2020
+Pennsylvania,PA,42.4,5168,2020
+Rhode Island,RI,38.2,397,2020
+South Carolina,SC,34.9,1739,2020
+South Dakota,SD,10.3,83,2020
+Tennessee,TN,45.6,3034,2020
+Texas,TX,14.1,4172,2020
+Utah,UT,20.5,622,2020
+Vermont,VT,32.9,190,2020
+Virginia,VA,26.6,2240,2020
+Washington,WA,22.0,1733,2020
+West Virginia,WV,81.4,1330,2020
+Wisconsin,WI,27.7,1531,2020
+Wyoming,WY,17.4,99,2020

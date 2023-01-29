@@ -1,9 +1,10 @@
 // let result = $.csv.toArrays(ODisp2013_2019.csv);
 // console.log(result)
 
-// const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
 const urlPres = 'ODispTransposed2013_2019.json'
 const urlDeaths = 'OpioidDeathsAllTransposed.json'
+const urlLine = 'https://project-3-h7kg.onrender.com/api/v1.0/od_data'
+
 
 // create drop down list
 const ddlList = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
@@ -11,7 +12,7 @@ let myddl = d3.select('select');
   // Create DDL from names list - working code option 2 - keep for future reference
   Object.entries(ddlList).forEach(([key,value])=> {
     currentValue = value;
-    console.log(currentValue)
+    // console.log(currentValue)
     let newOption = d3.select('select').append('option');
     newOption.attr('value',currentValue)
     newOption.text(currentValue)
@@ -25,7 +26,10 @@ dropdown.on("change", function() {//when there is a change in the selection, do 
   console.log(userChoice);
   barChartPres(userChoice);//reruns the barChartPres with the userChoice state
   barChartDeaths(userChoice);//reruns the barChartDeaths with the userChoice state
-  // CODYcharts(nameIndex);
+  // LineGraph(lineData,userChoice);
+  let overdoses = LineGraph(lineData,userChoice)
+  console.log(overdoses)
+  renderChart(overdoses,userChoice)
 });
 
 
@@ -83,8 +87,8 @@ function barChartPres(stateAbb) {
               dtick: 1
             },
       margin: { t: 50, r: 25, l: 75, b: 35},
-      paper_bgcolor: "aliceblue",
-      font: { color: "darkblue", family: "Arial" }
+      paper_bgcolor: "white",
+      font: { color: "black", family: "Arial" }
     };
 
     Plotly.newPlot("bar", data1,layout1)};
@@ -157,9 +161,87 @@ function barChartDeaths(stateAbb) {
               dtick: 1
             },
       margin: { t: 50, r: 25, l: 75, b: 35},
-      paper_bgcolor: "aliceblue",
-      font: { color: "darkblue", family: "Arial" }
+      paper_bgcolor: "white",
+      font: { color: "black", family: "Arial" }
     };
 
     Plotly.newPlot("gauge", data1,layout1)};
+
+
+
+// Cody's LineChart
+const dataPromise3 = d3.json(urlLine);
+console.log("Data Promise: ", dataPromise3);
+
+let lineData
+//let overdoses
+d3.json(urlLine).then(function(dataC) {
+  console.log(dataC)
+  lineData = dataC
+  let overdoses = LineGraph(lineData,state)
+    console.log(overdoses)
+    renderChart(overdoses,state)
+})
+
+console.log(lineData)
+//Line Graph
+function LineGraph(lineData, stateOfChoice) {
+  let state_data = lineData.filter(object => object.state == stateOfChoice);
+  let year2015 = [], year2016 = [], year2017=[], year2018=[], year2019=[], year2020=[], year2021=[], year2022=[];
+  /* let dataAsJson = JSC.csv2Json(rando); */
+  state_data.forEach(function (row) {
+    //    console.log(row)
+    // console.log(row.date)
+    // console.log(Date(row.date))    
+        if(row.year == '2015') {
+        year2015.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2016') {
+        year2016.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2017') {
+        year2017.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2018') {
+        year2018.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2019') {
+        year2019.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2020') {
+        year2020.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2021') {
+        year2021.push({x: row.month, y:row.overdose_deaths});
+      } else if (row.year =='2022') {
+        year2022.push({x: row.month, y:row.overdose_deaths});
+      }
+    });
+    
+    console.log(year2022)
+
+  
+  return [
+    {name:'2015', points: year2015},
+    {name:'2016', points: year2016},
+    {name:'2017', points: year2017},
+    {name:'2018', points: year2018},
+    {name:'2019', points: year2019},
+    {name:'2020', points: year2020},
+    {name:'2021', points: year2021},
+    {name:'2022', points: year2022}
+  ];
+
+  
+}
+/* console.log("Data Promise: ", rando); */
+//NOTE: Have not worked on this yet- example code from web article
+function renderChart(series,stateOfChoice) {
+	JSC.Chart('bubble', {
+		title_label_text: `Preliminary Overdose Death Data 2015 - 2022 for ${stateOfChoice}`,
+		annotations: [{
+			label_text: 'Source: CDC',
+			position: 'bottom left'
+		}],
+		legend_visible: false,
+		xAxis_crosshair_enabled: true,
+		defaultSeries_lastPoint_label_text: '<b>%seriesName</b>',
+		defaultPoint_tooltip: '%seriesName <b>%yValue</b> Deaths: ',
+		series: series
+	});
+}
 
