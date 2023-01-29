@@ -100,6 +100,8 @@ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <h3>Load</h3>
 <ul>
   <li>Transposed dfs saved as JSON files for website use.</li>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/BarCharts/ODispTransposed2013_2019.json">Opioid Prescription data from 2013-2019</a>, or</ul>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/BarCharts/OpioidDeathsAllTransposed.json">Opioid Deaths data from 2014-2019.</a></ul>
 </ul>
 
 
