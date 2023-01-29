@@ -37,7 +37,7 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
 <h3>Extract</h3>
 <ul>
-  <li>Data scraped into excel and converted to <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
+  <li>Data scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
 </ul>
 <h3>Transform</h3>
 <ul>
@@ -68,25 +68,37 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
   <li>Data read from <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a></li>
 </ul>
 <br>
+<h2>Interactive Visualizations</h2>
+<img width="533" alt="image" src="visualizations\InteractiveCharts.png">
+<p> Data for each individual state can be viewed by selecting the state from the drop down list on the left.
+ 
+</p>
+<br>
 <h2>Bar Charts</h2>
-<h3>Bar Chart 1 & 2 ~ (Chris)<br>
+<h3>Bar Chart 1 & 2 ~ (Chris, Madina)<br>
 https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
-<img width="533" alt="image" src="https://user-images.githubusercontent.com/111404552/215232103-79817c84-8aa1-444d-a096-d737826fcf52.png">
+<img width="533" alt="image" src="visualizations\BarCharts.png">
 <h3>Extract</h3>
 <ul>
-  <li>fgldakfjhgv</li>
+  <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate/DRState2013.csv">DRState2013.csv to DRState2019.csv</a></li>
+  <li>Overdose Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs/DeathState2014.csv">DeathState2014.csv to DeathState2020.csv</a></li>
 </ul>
 <h3>Transform</h3>
 <ul>
-  <li>sdfvbk dsfvb</li>
-  <li>dfsvbjsdflhjbk</li>
+  <li>individual csv files read into pandas DataFrames,</li>
+  <li>df column names standardized and extraneous columns dropped,</li>
+  <li>dfs merged into a single df for each dataset:
+    <ul>Opioid Prescription data from 2013-2019, or</ul>
+    <ul>Opioid Deaths data from 2014-2019.</ul>
+  <li>merged df for each dataset transposed into barchart-ready format. </li>
 </ul>
+
 <h3>Load</h3>
 <ul>
-  <lifsgbsfdglojkb</li>
-  <li>fgb;flskjgb</li>
-  <li>sfkg;jbnsfdjk;gb</li>
+  <li>Transposed dfs saved as JSON files for website use.</li>
 </ul>
+
+
 <br>
 <h2>Render</h2>
 <h3>SQLite Database & OnRender Website<br>
@@ -95,6 +107,8 @@ https://project-3-h7kg.onrender.com/</h3>
 <ul>
 <li>Provisional overdose death data sourced from CDC <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
 <li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
+<img width="533" alt="image" src="visualizations\lineChart.png">
+
 <li>Render is used to host the site and SQLite database.</li>
 </ul>
 <br>
