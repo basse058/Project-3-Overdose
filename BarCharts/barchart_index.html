@@ -14,22 +14,32 @@
 
     <div class="row">
       <div class="col-md-2">
-        <h5>Select State</h5>
+        <div class="well">
+          <h5>Select State</h5>
         <select id="selDataset">
         </select>
+        </div>
+      </div>
+      <div  class="col-md-5">
+        <div class = 'chartz' id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div class = 'chartz'  id="gauge"></div>
       </div>
     </div>
-        <div  class="col-md-5">
-        <div class = 'chartz' id="bar"></div>
-        </div>
-            <div class="col-md-5">
-            <div class = 'chartz'  id="gauge"></div>
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div   id="bubble" style = "height:40vh; width: 100vw"></div>
+      </div>
+    </div>
 
+<br>
+
+  <script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-      <script src="barchart.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="barchart.js"></script>
+  <!-- <script src="lineGraph_ChrisTry.js"></script> -->
 
 </body>
 
