@@ -22,7 +22,7 @@ Base = automap_base()
 Base.prepare(autoload_with=engine)
 
 # Save reference to the table
-overdose = Base.classes.od_data_df
+overdose = Base.classes.od_data_df_ordered
 
 #################################################
 # Flask Setup
