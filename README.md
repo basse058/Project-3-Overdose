@@ -76,7 +76,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <br>
 <h2>Bar Charts</h2>
 <h3>Bar Chart 1 & 2 ~ (Chris, Madina)<br>
-https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3>
+https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <img width="533" alt="image" src="visualizations\BarCharts.png">
 <h3>Extract</h3>
 <ul>
