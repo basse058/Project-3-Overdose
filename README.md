@@ -89,14 +89,14 @@ https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html</h3
 </ul>
 <br>
 <h2>Render</h2>
-<h3>OnRender Website ~ (Cody)<br>
+<h3>SQLite Database & OnRender Website<br>
 https://project-3-h7kg.onrender.com/</h3>
 (insert image here)
 <h3>Title</h3>
 <ul>
-<li>List1</li>
-<li>List2</li>
-<li>List3</li>
+<li>Provisional overdose death data sourced from CDC <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
+<li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
+<li>Render is used to host the site and SQLite database.</li>
 </ul>
 <br>
 <h2>Presentation</h2>
