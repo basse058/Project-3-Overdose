@@ -1,5 +1,4 @@
-// let result = $.csv.toArrays(ODisp2013_2019.csv);
-// console.log(result)
+// Project 3 barcharts and linechart - interactive using state drop down list
 
 const urlPres = 'ODispTransposed2013_2019.json'
 const urlDeaths = 'OpioidDeathsAllTransposed.json'
@@ -18,22 +17,24 @@ let myddl = d3.select('select');
     newOption.text(currentValue)
   });
 
+//interactive charts will start by showing state = 'AL'
 let state = 'AL'
 
+//create interactive drop down list that will update the bar charts and line chart
 let dropdown = d3.select("#selDataset");//selects by html id
 dropdown.on("change", function() {//when there is a change in the selection, do the function
   userChoice = this.value; //captures the userChoice from the ddl as the Test Sample ID (940)
   console.log(userChoice);
   barChartPres(userChoice);//reruns the barChartPres with the userChoice state
   barChartDeaths(userChoice);//reruns the barChartDeaths with the userChoice state
-  // LineGraph(lineData,userChoice);
+  //line chart has two functions
   let overdoses = LineGraph(lineData,userChoice)
   console.log(overdoses)
   renderChart(overdoses,userChoice)
 });
 
 
-
+//get data for prescriptions barchart
 const dataPromise = d3.json(urlPres); 
 console.log("Data Promise: ", dataPromise);
 
@@ -65,7 +66,7 @@ function barChartPres(stateAbb) {
   '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
   let colorlist4 = [
   //'#f7fbff','#deebf7',
-  '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];
+  '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];//blues
   let trace1 = {
       x: barx,
       y: bary,
@@ -94,19 +95,11 @@ function barChartPres(stateAbb) {
     Plotly.newPlot("bar", data1,layout1)};
 
 
-
-
-
-
-
-
-
-//deaths
+//get data for overdose deaths barchart
 const dataPromise2 = d3.json(urlDeaths);
 console.log("Data Promise: ", dataPromise2);
 
-// console.log(stateAbb);
-let Deaths
+let Deaths//stores data from OpioidDeathsAllTransposed.json  - will be available to all functions
 
 d3.json(urlDeaths).then(function(dataD) {
 Deaths= dataD
@@ -115,12 +108,10 @@ Deaths= dataD
     console.log(dataD['Number_of_Deaths_by_Year'][0]);
     console.log(dataD['Number_of_Deaths_by_Year'][3]);
     barChartDeaths(state);
-  // let state = dataD[stateAbb]
-  //   console.log(state)
-  
 
 });
 
+//bar chart for overdose deaths by state
 function barChartDeaths(stateAbb) {
   let state = Deaths[stateAbb]
   let bary = [state[0],state[1],state['2'],state['3'],state['4'],state['5']];
@@ -138,7 +129,7 @@ function barChartDeaths(stateAbb) {
     '#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'] //oranges and reds
   let colorlist4 = [
     //'#f7fbff','#deebf7',
-    '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];
+    '#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'];//blues
 
   let trace1 = {
       x: barx,
@@ -168,13 +159,11 @@ function barChartDeaths(stateAbb) {
     Plotly.newPlot("gauge", data1,layout1)};
 
 
-
-// Cody's LineChart
+// Cody's LineChart - pulls from SQLite db on Render
 const dataPromise3 = d3.json(urlLine);
 console.log("Data Promise: ", dataPromise3);
 
 let lineData
-//let overdoses
 d3.json(urlLine).then(function(dataC) {
   console.log(dataC)
   lineData = dataC
@@ -185,6 +174,7 @@ d3.json(urlLine).then(function(dataC) {
 
 console.log(lineData)
 //Line Graph
+//CG- added in StateOfChoice to use for interactive chart title
 function LineGraph(lineData, stateOfChoice) {
   let state_data = lineData.filter(object => object.state == stateOfChoice);
   let year2015 = [], year2016 = [], year2017=[], year2018=[], year2019=[], year2020=[], year2021=[], year2022=[];
@@ -214,22 +204,37 @@ function LineGraph(lineData, stateOfChoice) {
     
     console.log(year2022)
 
-  
-  return [
-    {name:'2015', points: year2015},
-    {name:'2016', points: year2016},
-    {name:'2017', points: year2017},
-    {name:'2018', points: year2018},
-    {name:'2019', points: year2019},
-    {name:'2020', points: year2020},
-    {name:'2021', points: year2021},
-    {name:'2022', points: year2022}
-  ];
+    //CG -data from db is not in order - add this step to order by Month number so chart can draw a pretty line
+    const year2015sort = Object.values(year2015).sort((a, b) => a.x - b.x);
+    const year2016sort = Object.values(year2016).sort((a, b) => a.x - b.x);
+    const year2017sort = Object.values(year2017).sort((a, b) => a.x - b.x);
+    const year2018sort = Object.values(year2018).sort((a, b) => a.x - b.x);
+    const year2019sort = Object.values(year2019).sort((a, b) => a.x - b.x);
+    const year2020sort = Object.values(year2020).sort((a, b) => a.x - b.x);    
+    const year2021sort = Object.values(year2021).sort((a, b) => a.x - b.x);
+    const year2022sort = Object.values(year2022).sort((a, b) => a.x - b.x);
 
-  
+    console.log(year2015sort)
+    console.log(year2016sort)
+    console.log(year2017sort)
+    console.log(year2018sort)
+    console.log(year2019sort)
+    console.log(year2020sort)
+    console.log(year2021sort)
+    console.log(year2022sort)
+
+  return [
+    {name:'2015', points: year2015sort},
+    {name:'2016', points: year2016sort},
+    {name:'2017', points: year2017sort},
+    {name:'2018', points: year2018sort},
+    {name:'2019', points: year2019sort},
+    {name:'2020', points: year2020sort},
+    {name:'2021', points: year2021sort},
+    {name:'2022', points: year2022sort}
+  ];
 }
-/* console.log("Data Promise: ", rando); */
-//NOTE: Have not worked on this yet- example code from web article
+
 function renderChart(series,stateOfChoice) {
 	JSC.Chart('bubble', {
 		title_label_text: `Preliminary Overdose Death Data 2015 - 2022 for ${stateOfChoice}`,
