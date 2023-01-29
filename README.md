@@ -4,21 +4,24 @@
 
 <h2>Project Description</h2>
 
-<h4>This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2019.
-The data used was primarily contained within a CSV file found on the CDC website called "Opioid Overdose Deaths” (2014-2019.
+<h4>This project analyzes opioid overdose data from the United States for all states for the year range including 2013 and 2022.
+The data used was obtained from multiple websites listed below:
+<br>
+"U.S. State Overdose Deaths 2014-2019" data was scraped from the CDC webpage:
 <ul>
-<li>https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html</li>. 
+<li><a href="https://www.cdc.gov/drugoverdose/deaths/index.html">https://www.cdc.gov/drugoverdose/deaths/index.html</a></li>
 </ul>
-"U.S. State Opioid Dispensing Rate 2013-2019 data was scraped from the CDC webpage:
+"U.S. State Opioid Dispensing Rate 2013-2019" data was scraped from the CDC webpage:
 <ul>
-<li>https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</li>
+<li><a href="https://www.cdc.gov/drugoverdose/rxrate-maps/index.html">https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</a></li>
 </ul>
-"Provisional Drug Overdose Death Counts 2015-2022" data was also scraped from the CDC webpage:
+"Provisional Drug Overdose Death Counts 2015-2022" data was downloaded in CSV format from the CDC webpage:
 <ul>
-<li>https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</li>
+<li><a href="https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm">https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</a></li>
 </ul>
 <br>
 </h4>
+
 
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
@@ -71,7 +74,6 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <h2>Interactive Visualizations</h2>
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png">
 <p> <ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
- 
 </p>
 <br>
 <h2>Bar Charts</h2>
@@ -80,22 +82,21 @@ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
 <img width="533" alt="image" src="visualizations\BarCharts.png">
 <h3>Extract</h3>
 <ul>
-  <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate/DRState2013.csv">DRState2013.csv to DRState2019.csv</a></li>
-  <li>Overdose Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs/DeathState2014.csv">DeathState2014.csv to DeathState2020.csv</a></li>
+  <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate">DRState2013.csv to DRState2019.csv</a></li>
+  <li>Overdose Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs">DeathState2014.csv to DeathState2020.csv</a></li>
 </ul>
 <h3>Transform</h3>
 <ul>
   <li>individual csv files read into pandas DataFrames,</li>
   <li>df column names standardized and extraneous columns dropped,</li>
   <li>dfs merged into a single df for each dataset:
-    <ul>
-      <li>Opioid Prescription data from 2013-2019, or</li>
-      <li>Opioid Deaths data from 2014-2019.</li>
-    </ul>
-   </li>
-   <li>merged df for each dataset transposed into barchart-ready format.</li>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODisp2013_2019.csv">Opioid Prescription data from 2013-2019</a>, or</ul>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs/OpioidDeathsAll.csv">Opioid Deaths data from 2014-2019.</a></ul>
+  <li>df for each dataset transposed into barchart-ready formats: </li>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODispTransposed2013_2019.csv">Opioid Prescription data from 2013-2019</a>, or</ul>
+    <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs/OpioidDeathsAllTransposed.csv">Opioid Deaths data from 2014-2019.</a></ul>
 </ul>
-  
+
 <h3>Load</h3>
 <ul>
   <li>Transposed dfs saved as JSON files for website use.</li>
