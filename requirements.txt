@@ -17,3 +17,4 @@ Werkzeug
 wincertstore
 flask_cors
 html5lib
+bootstrap-flask
