@@ -50,7 +50,8 @@ https://project-3-h7kg.onrender.com/</h2>
 <h3>Plotly Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
-<ul><li><b>Interactivity:</b> Hover over state to reveal deathes by year, total of all years and state abbreviation.</li></ul>
+<ul><li><b>Interactivity:</b> Hover over state to reveal deathes by year, total of all years and state abbreviation.</li>
+<li>Color gradient shows the highest (dark) to lowest (light) death rates among states.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Data scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
@@ -72,7 +73,8 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
 <h5><i>* Includes JavaScript library previously unintroduced during class</i></h5></p>
-<p><ul><li><b>Interactivity:</b> Hover over state to see total deaths for the five year range of the dataset.</ul>
+<p><ul><li><b>Interactivity:</b> Hover over state to see total deaths for the five year range of the dataset.
+<li>Color gradient shows the highest (dark) to lowest (light) death rates among states.</li></ul>
 <h3>Extract</h3>
 <ul><li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li></ul>
 <h3>Transform</h3>
