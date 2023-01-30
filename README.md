@@ -39,8 +39,8 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 https://project-3-h7kg.onrender.com/</h2>
 <img width="533" alt="image" src="visualizations\lineChart.png">
 <ul>
-<li>Provisional overdose death data sourced from CDC <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
-<li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
+<li>Provisional overdose death data sourced from <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
+<li>Dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
 <li>Render is used to host the site and SQLite database.</li>
 </ul>
 <br>
@@ -72,8 +72,9 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <h3>AnyChart Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
-<h5><i>* Includes JavaScript library previously unintroduced during class</i></h5></p>
-<p><ul><li><b>Interactivity:</b> Hover over state to see total deaths for the five year range of the dataset.
+<h5><i>* Includes JavaScript library previously unintroduced during class</i></h5>
+<ul>
+<li><b>Interactivity:</b> Hover over state to see total deaths for the five year range of the dataset.
 <li>Color gradient shows the highest (dark) to lowest (light) death rates among states.</li></ul>
 <h3>Extract</h3>
 <ul><li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li></ul>
@@ -97,7 +98,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 </ul>
 <h3>Transform</h3>
 <ul>
-  <li>individual csv files read into pandas DataFrames,</li>
+  <li>Individual csv files read into pandas DataFrames,</li>
   <li>df column names standardized and extraneous columns dropped,</li>
   <li>dfs merged into a single df for each dataset:
     <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODisp2013_2019.csv">Opioid Prescription data from 2013-2019</a>, or</ul>
