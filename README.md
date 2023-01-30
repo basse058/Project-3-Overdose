@@ -35,7 +35,7 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 </ul>
 <br>
 <br>
-<h2>SQLite Database & OnRender Website ~ (Cody)<br>
+<h2>OnRender Website using SQLite Database ~ (Cody)<br>
 https://project-3-h7kg.onrender.com/</h2>
 <img width="533" alt="image" src="visualizations\lineChart.png">
 <ul>
