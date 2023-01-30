@@ -79,7 +79,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <h2>Charts & Graph</h2>
 <h3>Bar Charts & Line Graph ~ (Chris, Madina & Cody)<br>
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png"></h3>
-<ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
+<ul><li>Interactivity: Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate">DRState2013.csv to DRState2019.csv</a></li>
