@@ -24,6 +24,8 @@ The data used was obtained from multiple websites listed below:
 <br>
 <br>
 <br>
+<h2>Website</h2>
+<br>
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 <img src="assets/project-3-overdose-webpage-screenshot.jpg">
@@ -32,6 +34,17 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
   <li>Created boxed layout.</li>
   <li>Added maps and charts via iframe embeds.</li>
   <li>Added JS script and CSS to add light and dark mode toggle.</li>
+</ul>
+<br>
+<br>
+<br>
+<h2>SQLite Database & OnRender Website ~ (Cody)<br>
+https://project-3-h7kg.onrender.com/</h2>
+<img width="533" alt="image" src="visualizations\lineChart.png">
+<ul>
+<li>Provisional overdose death data sourced from CDC <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
+<li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
+<li>Render is used to host the site and SQLite database.</li>
 </ul>
 <br>
 <br>
@@ -105,16 +118,6 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 </ul>
 <br>
 <br>
-<br>
-<h2>Render</h2>
-<h3>SQLite Database & OnRender Website ~ (Cody)<br>
-https://project-3-h7kg.onrender.com/</h3>
-<img width="533" alt="image" src="visualizations\lineChart.png">
-<ul>
-<li>Provisional overdose death data sourced from CDC <a href="https://www.cdc.gov/nchs/nvss/vsrr/prov-county-drug-overdose.htm">CDC web page</a> </li>
-<li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
-<li>Render is used to host the site and SQLite database.</li>
-</ul>
 <br>
 <h2>Presentation</h2>
 <h3>Slideshow ~ (Madina)<br>
