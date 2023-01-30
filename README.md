@@ -76,7 +76,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <br>
 <br>
 <br>
-<h2>Bar Charts</h2>
+<h2>Charts & Graph</h2>
 <h3>Bar Charts & Line Graph ~ (Chris, Madina & Cody)<br>
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png"></h3>
 <ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
