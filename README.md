@@ -22,7 +22,6 @@ The data used was obtained from multiple websites listed below:
 <br>
 </h4>
 <br>
-<br>
 <h2>Website</h2>
 <br>
 <h2>Bootstrap Website ~ (Brandon)<br>
@@ -117,20 +116,3 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <h3>Slideshow ~ (Madina)<br>
 https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <img src="assets/google-slides-presentation.jpg">
-<br>
-<br>
-<h3>Elements</h3>
-<ul>
-<li>Render Webpage: https://project-3-h7kg.onrender.com/</li>
-<li>Bootstrap Website ~ https://basse058.github.io/Project-3-Overdose/templates/index.html</li>
-<li>Plotly Map - https://basse058.github.io/Project-3-Overdose/plotly-map</li>
-<li>AnyChart Map ~ https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html</li>
-<li>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</li>
- </ul>
-<br>
-<h3>Data</h3>
-<ul>
-<li>https://www.cdc.gov/drugoverdose/rxrate-maps/index.html</li>
-<li>https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm</li>
-<li>https://www.health.state.mn.us/communities/opioids/opioid-dashboard/index.html</li>
-</ul>
