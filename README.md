@@ -23,7 +23,6 @@ The data used was obtained from multiple websites listed below:
 </h4>
 <br>
 <br>
-<br>
 <h2>Website</h2>
 <br>
 <h2>Bootstrap Website ~ (Brandon)<br>
@@ -37,7 +36,6 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 </ul>
 <br>
 <br>
-<br>
 <h2>SQLite Database & OnRender Website ~ (Cody)<br>
 https://project-3-h7kg.onrender.com/</h2>
 <img width="533" alt="image" src="visualizations\lineChart.png">
@@ -46,7 +44,6 @@ https://project-3-h7kg.onrender.com/</h2>
 <li>dataset was loaded in SQLite database. Using the app.py file in root folder, the proper data is pulled for the line graph showing the monthly overdose counts for up to 12 months for the state selected by the dropdown like the bar charts. </li>
 <li>Render is used to host the site and SQLite database.</li>
 </ul>
-<br>
 <br>
 <br>
 <h2>Interactive Visualizations</h2>
@@ -72,7 +69,6 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 </ul>
 <br>
 <br>
-<br>
 <h3>AnyChart Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
@@ -86,7 +82,6 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <li>Javascript pulled from CDN into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/anychart.html">anychart.html</a>
 <li>Data read from <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a>
 </ul>
-<br>
 <br>
 <br>
 <h2>Charts & Graph</h2>
@@ -109,7 +104,6 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
     <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODispTransposed2013_2019.csv">Opioid Prescription data from 2013-2019</a>, or</ul>
     <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/ODs/OpioidDeathsAllTransposed.csv">Opioid Deaths data from 2014-2019.</a></ul>
 </ul>
-
 <h3>Load</h3>
 <ul>
   <li>Transposed dfs saved as JSON files for website use.</li>
@@ -118,12 +112,10 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 </ul>
 <br>
 <br>
-<br>
 <h2>Presentation</h2>
 <h3>Slideshow ~ (Madina)<br>
 https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <img src="assets/google-slides-presentation.jpg">
-<br>
 <br>
 <br>
 <h3>Elements</h3>
@@ -134,8 +126,6 @@ https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <li>AnyChart Map ~ https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html</li>
 <li>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</li>
  </ul>
-<br>
-<br>
 <br>
 <h3>Data</h3>
 <ul>
