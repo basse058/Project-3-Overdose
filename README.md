@@ -21,8 +21,9 @@ The data used was obtained from multiple websites listed below:
 </ul>
 <br>
 </h4>
-
-
+<br>
+<br>
+<br>
 <h2>Bootstrap Website ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
 <img src="assets/project-3-overdose-webpage-screenshot.jpg">
@@ -32,12 +33,15 @@ https://basse058.github.io/Project-3-Overdose/templates/index.html</h2>
   <li>Added maps and charts via iframe embeds.</li>
   <li>Added JS script and CSS to add light and dark mode toggle.</li>
 </ul>
-
-
-<h2>Choropleth Maps</h2>
+<br>
+<br>
+<br>
+<h2>Interactive Visualizations</h2>
+<br>
 <h3>Plotly Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
+<ul><li>Interactivity: Hover over state to reveal deathes by year, total of all years and state abbreviation.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Data scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
@@ -54,32 +58,28 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
   <li>Used <a href="https://github.com/basse058/Project-3-Overdose/blob/main/plotly-map.py">plotly-map.py</a> to read data, create dataframe, build map and output <a href="https://github.com/basse058/Project-3-Overdose/blob/main/plotly-map.html">plotly-map.html</a> file.</li>
 </ul>
 <br>
+<br>
+<br>
 <h3>AnyChart Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
+<h5><i>* JavaScript library previously unintroduced during class</i></h5></p>
+<p><ul><li>Interactivity: Hover over state to see total deaths for the five year range of the dataset.</ul>
 <h3>Extract</h3>
-<ul>
-  <li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li>
-</ul>
+<ul><li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li></ul>
 <h3>Transform</h3>
-<ul>
-  <li>Data was already clean from previous map.</li>
-  </ul>
+<li>Data was already clean from previous map.
 <h3>Load</h3>
-<ul>
-  <li>Javascript pulled from CDN into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/anychart.html">anychart.html</a></li>
-  <li>Data read from <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a></li>
+<li>Javascript pulled from CDN into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/anychart.html">anychart.html</a>
+<li>Data read from <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a>
 </ul>
 <br>
-<h2>Interactive Visualizations</h2>
-<img width="533" alt="image" src="visualizations\InteractiveCharts.png">
-<p> <ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
-</p>
+<br>
 <br>
 <h2>Bar Charts</h2>
-<h3>Bar Chart 1 & 2 ~ (Chris, Madina)<br>
-https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
-<img width="533" alt="image" src="visualizations\BarCharts.png">
+<h3>Bar Charts & Line Graph ~ (Chris, Madina & Cody)<br>
+<img width="533" alt="image" src="visualizations\InteractiveCharts.png"></h3>
+<ul><li>Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate">DRState2013.csv to DRState2019.csv</a></li>
@@ -103,8 +103,8 @@ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</h3>
     <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/BarCharts/ODispTransposed2013_2019.json">Opioid Prescription data from 2013-2019</a>, or</ul>
     <ul><a href="https://github.com/basse058/Project-3-Overdose/blob/main/BarCharts/OpioidDeathsAllTransposed.json">Opioid Deaths data from 2014-2019.</a></ul>
 </ul>
-
-
+<br>
+<br>
 <br>
 <h2>Render</h2>
 <h3>SQLite Database & OnRender Website ~ (Cody)<br>
@@ -120,12 +120,8 @@ https://project-3-h7kg.onrender.com/</h3>
 <h3>Slideshow ~ (Madina)<br>
 https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <img src="assets/google-slides-presentation.jpg">
-<h3>Title</h3>
-<ul>
-<li>List1</li>
-<li>List2</li>
-<li>List3</li>
-</ul>
+<br>
+<br>
 <br>
 <h3>Elements</h3>
 <ul>
@@ -135,6 +131,8 @@ https://docs.google.com/presentation/d/1yLrDGqCc9DOo0mkTwuMQH3fmSIiOUHch/</h3>
 <li>AnyChart Map ~ https://basse058.github.io/Project-3-Overdose/AnyChartMap/anychart.html</li>
 <li>Bar Charts ~ https://basse058.github.io/Project-3-Overdose/BarCharts/barchart_index.html</li>
  </ul>
+<br>
+<br>
 <br>
 <h3>Data</h3>
 <ul>
