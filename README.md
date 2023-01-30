@@ -51,7 +51,7 @@ https://project-3-h7kg.onrender.com/</h2>
 <h3>Plotly Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <img src="assets/plotly-choropleth-map.jpg">
-<ul><li>Interactivity: Hover over state to reveal deathes by year, total of all years and state abbreviation.</li></ul>
+<ul><li><b>Interactivity:</b> Hover over state to reveal deathes by year, total of all years and state abbreviation.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Data scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/OpioidDeathsAll.csv">OpioidDeathsAll.csv</a> by Chris G.</li>
@@ -72,8 +72,8 @@ https://basse058.github.io/Project-3-Overdose/plotly-map</h3>
 <h3>AnyChart Choropleth Map ~ (Brandon)<br>
 https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <img src="assets/anychart-choropleth-map.jpg">
-<h5><i>* JavaScript library previously unintroduced during class</i></h5></p>
-<p><ul><li>Interactivity: Hover over state to see total deaths for the five year range of the dataset.</ul>
+<h5><i>* Includes JavaScript library previously unintroduced during class</i></h5></p>
+<p><ul><li><b>Interactivity:</b> Hover over state to see total deaths for the five year range of the dataset.</ul>
 <h3>Extract</h3>
 <ul><li>Data copied from previous map into <a href="https://github.com/basse058/Project-3-Overdose/blob/main/AnyChartMap/data.json">data.json</a> file for AnyChart Choropleth Map</li></ul>
 <h3>Transform</h3>
@@ -87,7 +87,8 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <h2>Charts & Graph</h2>
 <h3>Bar Charts & Line Graph ~ (Chris, Madina & Cody)<br>
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png"></h3>
-<ul><li>Interactivity: Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
+<h5><i>* Linegraph includes JavaScript library previously unintroduced during class</i></h5></p>
+<ul><li><b>Interactivity:</b> Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
 <h3>Extract</h3>
 <ul>
   <li>Opioid Prescription Data was scraped and saved as <a href="https://github.com/basse058/Project-3-Overdose/blob/main/Resources/DispenseRate">DRState2013.csv to DRState2019.csv</a></li>
