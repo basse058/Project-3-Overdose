@@ -88,6 +88,7 @@ https://basse058.github.io/Project-3-Overdose/anychart.html</h3>
 <br>
 <h2>Charts & Graph</h2>
 <h3>Bar Charts & Line Graph ~ (Chris, Madina & Cody)<br>
+https://github.com/basse058/Project-3-Overdose/BarCharts/barchart_index.html
 <img width="533" alt="image" src="visualizations\InteractiveCharts.png"></h3>
 <h5><i>* Linegraph includes JavaScript library previously unintroduced during class</i></h5></p>
 <ul><li><b>Interactivity:</b> Data for each individual state can be viewed by selecting the state from the drop down list on the left.</li></ul>
